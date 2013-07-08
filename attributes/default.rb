@@ -119,7 +119,7 @@ default["ha"]["available_services"]["glance-admin-api"] = {
     "vrid" => 22,
     "vip_network" => "management"
 }
-default["ha"]["available_services"]["glance-nternal-api"] = {
+default["ha"]["available_services"]["glance-internal-api"] = {
     "role" => "glance-api",
     "namespace" => "glance",
     "service" => "internal-api",
